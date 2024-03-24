@@ -10,7 +10,7 @@ use pocketmine\player\Player;
 class LanguageCommand extends Command{
 
     public function __construct(){
-        parent::__construct("translations", "change the server translations");
+        parent::__construct("language", "change the server translations");
         $this->setPermission("language.command");
     }
 
