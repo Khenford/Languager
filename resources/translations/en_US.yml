@@ -1,0 +1,5 @@
+language:
+  title: "Changing languager"
+  content: "Choose a language that is more convenient for you"
+  success: "You have successfully changed the language"
+  error: "You already have this language installed"

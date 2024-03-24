@@ -1,0 +1,10 @@
+name: Languager
+version: 0.0.1
+main: Khenford\Languager
+api: 5.0.0
+depend:
+  - FormConstructor
+
+permissions:
+  language.command:
+    default: true
