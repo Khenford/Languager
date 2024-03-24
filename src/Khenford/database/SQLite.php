@@ -41,7 +41,7 @@ class SQLite{
     }
 
     public function getLanguager(string $username): string{
-        $result = self::getSQLite()->query("SELECT `languager` FROM `users` WHERE `username`='$username'");;
+        $result = self::getSQLite()->query("SELECT `languager` FROM `users` WHERE `username`='$username'");
         while($row = $result->fetchArray(SQLITE3_ASSOC)){
             return $row["languager"];
         }
